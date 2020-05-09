@@ -90,7 +90,7 @@ public class SmalltalkFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 //Going forward
-                if (Objects.requireNonNull(smalltalkViewModel.getCurrentQuestion().getValue()).matches("Welcome to smalltalk-improvement part! When you are ready, press continue.")){
+                if (Objects.requireNonNull(smalltalkViewModel.getCurrentQuestion().getValue()).matches("Welcome to smalltalk improvement part! When you are ready, press continue.")){
                     smalltalkViewModel.getCurrentQuestion().setValue(instructions.substring(3));
                 } else if (smalltalkViewModel.getCurrentQuestion().getValue().equals(instructions.substring(3))) {
                     smalltalkViewModel.getCurrentQuestion().setValue(question1);
