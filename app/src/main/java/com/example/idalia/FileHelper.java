@@ -62,16 +62,16 @@ public class FileHelper {
             int desiredLine = random.nextInt(numLines);
 
             while ((line = bufferedReader.readLine()) != null){
-                Log.d(TAG, "While Schleife is entered");
+                Log.d(TAG, "While loop is entered");
                 if (lineCtr == desiredLine){
-                    Log.d(TAG, "If Clause durchgeführt");
+                    Log.d(TAG, "If clause is done");
                     break;
                 }
                 lineCtr++;
             }
 
             bufferedReader.close();
-            Log.d(TAG, "Magic Line is: " + line);
+            Log.d(TAG, "Chosen line is: " + line);
         } catch (IOException e) {
             e.printStackTrace();
         }

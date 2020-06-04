@@ -19,6 +19,3 @@
         app:navGraph="@navigation/mobile_navigation" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-<!-- Hier wurde das ConstraintLayout in MotionLayout umgewandelt.
-Hinzukommt ein app:layout_description, welche das xml file von motionlayout enthält.-->
