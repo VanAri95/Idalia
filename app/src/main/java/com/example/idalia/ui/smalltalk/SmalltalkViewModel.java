@@ -13,6 +13,6 @@ public class SmalltalkViewModel extends ViewModel {
 
     public SmalltalkViewModel() {
         currentQuestion = new MutableLiveData<>();
-        currentQuestion.setValue("Welcome to smalltalk-improvement part! When you are ready, press continue.");
+        currentQuestion.setValue("Welcome to smalltalk improvement part! When you are ready, press continue.");
     }
 }

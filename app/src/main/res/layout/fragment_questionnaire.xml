@@ -3,22 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/blackText"
     android:id="@+id/layout_questionnaire">
-
-    <androidx.cardview.widget.CardView
-        xmlns:card_view="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/card_view1"
-        android:layout_gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="40dp"
-        card_view:cardCornerRadius="4dp"
-        card_view:cardElevation="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
 
     <TextView
         android:id="@+id/text_gallery"
@@ -29,12 +15,10 @@
         android:layout_marginEnd="8dp"
         android:textAlignment="center"
         android:textSize="20sp"
+        android:textColor="@color/colorsidebar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    </androidx.cardview.widget.CardView>
-
 
    <!-- <TextView
         android:id="@+id/text_gallery"
@@ -60,8 +44,9 @@
         android:gravity="center"
         android:paddingStart="30dip"
         android:paddingEnd="26dip"
+        android:drawableTint="@color/whiteText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/card_view1" />
+        app:layout_constraintTop_toBottomOf="@id/text_gallery" />
 
     <Button
         android:id="@+id/back_button_questionnaire"
@@ -74,8 +59,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
+        android:drawableTint="@color/whiteText"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/card_view1" />
+        app:layout_constraintTop_toBottomOf="@id/text_gallery" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

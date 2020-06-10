@@ -3,22 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/layout_smalltalk">
-
-    <androidx.cardview.widget.CardView
-        xmlns:card_view="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/card_view2"
-        android:layout_gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="40dp"
-        card_view:cardCornerRadius="4dp"
-        card_view:cardElevation="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+    android:id="@+id/layout_smalltalk"
+    android:background="@color/blackText">
 
         <TextView
             android:id="@+id/text_slideshow"
@@ -29,11 +15,10 @@
             android:layout_marginEnd="8dp"
             android:textAlignment="center"
             android:textSize="20sp"
+            android:textColor="@color/colorsidebar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-    </androidx.cardview.widget.CardView>
-
 
     <Button
         android:id="@+id/continue_button_smalltalk"
@@ -42,7 +27,7 @@
         android:layout_marginEnd="80dp"
         android:text="@string/Continue_button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/card_view2" />
+        app:layout_constraintTop_toBottomOf="@+id/text_slideshow" />
 
     <Button
         android:id="@+id/back_button_smalltalk"
@@ -51,6 +36,6 @@
         android:layout_marginStart="80dp"
         android:text="@string/Back_button"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/card_view2" />
+        app:layout_constraintTop_toBottomOf="@+id/text_slideshow" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
