@@ -16,6 +16,9 @@ import android.webkit.WebViewClient;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.webkit.WebSettingsCompat;
+import androidx.webkit.WebViewFeature;
+
 import com.example.idalia.R;
 
 public class DatingFragment extends Fragment {
@@ -28,6 +31,10 @@ public class DatingFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_dating, container, false);
         webView = root.findViewById(R.id.webview_dating);
+
+        if (WebViewFeature.isFeatureSupported(WebViewFeature.FORCE_DARK)){
+            WebSettingsCompat.setForceDark(webView.getSettings(), WebSettingsCompat.FORCE_DARK_ON);
+        }
 
         if (savedInstanceState == null){
             webView.loadUrl("https://www.nicknotas.com/dating-101/");
