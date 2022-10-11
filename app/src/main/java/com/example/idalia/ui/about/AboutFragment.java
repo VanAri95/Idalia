@@ -49,7 +49,7 @@ public class AboutFragment extends Fragment {
         Intent intent = new Intent(Intent.ACTION_SENDTO);
         intent.setData(Uri.parse("mailto:"));
         intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"arian.arifaj@web.de"});
-        intent.putExtra(Intent.EXTRA_SUBJECT, "Idalia");
+        intent.putExtra(Intent.EXTRA_SUBJECT, "Feedback Idalia");
         startActivity(Intent.createChooser(intent, ""));
     }
 }
