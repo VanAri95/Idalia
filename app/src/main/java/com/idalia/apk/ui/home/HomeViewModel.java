@@ -1,11 +1,11 @@
-package com.example.idalia.ui.home;
+package com.idalia.apk.ui.home;
 
 import android.app.Application;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.MutableLiveData;
-import com.example.idalia.FileHelper;
+import com.idalia.apk.FileHelper;
 
 public class HomeViewModel extends AndroidViewModel {
 

@@ -1,4 +1,4 @@
-package com.example.idalia.ui.questionnaire;
+package com.idalia.apk.ui.questionnaire;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;

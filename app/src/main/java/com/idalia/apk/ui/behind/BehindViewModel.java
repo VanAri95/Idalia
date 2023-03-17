@@ -1,4 +1,4 @@
-package com.example.idalia.ui.behind;
+package com.idalia.apk.ui.behind;
 
 import android.app.Application;
 

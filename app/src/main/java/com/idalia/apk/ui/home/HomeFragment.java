@@ -1,4 +1,4 @@
-package com.example.idalia.ui.home;
+package com.idalia.apk.ui.home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,11 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.example.idalia.FileHelper;
-import com.example.idalia.R;
-
-import java.io.InputStream;
-import java.util.StringTokenizer;
+import com.idalia.apk.R;
 
 public class HomeFragment extends Fragment {
 

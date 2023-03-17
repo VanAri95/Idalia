@@ -1,4 +1,4 @@
-package com.example.idalia.ui.smalltalk;
+package com.idalia.apk.ui.smalltalk;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;

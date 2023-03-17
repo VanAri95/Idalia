@@ -7,37 +7,37 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.idalia.ui.home.HomeFragment"
+        android:name="com.idalia.apk.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_questionnaire"
-        android:name="com.example.idalia.ui.questionnaire.QuestionnaireFragment"
+        android:name="com.idalia.apk.ui.questionnaire.QuestionnaireFragment"
         android:label="@string/menu_questionnaire"
         tools:layout="@layout/fragment_questionnaire" />
 
     <fragment
         android:id="@+id/nav_smalltalk"
-        android:name="com.example.idalia.ui.smalltalk.SmalltalkFragment"
+        android:name="com.idalia.apk.ui.smalltalk.SmalltalkFragment"
         android:label="@string/menu_smalltalk"
         tools:layout="@layout/fragment_smalltalk" />
 
     <fragment
         android:id="@+id/nav_dating"
-        android:name="com.example.idalia.ui.dating.DatingFragment"
+        android:name="com.idalia.apk.ui.dating.DatingFragment"
         android:label="@string/menu_dating"
         tools:layout="@layout/fragment_dating" />
 
     <fragment
         android:id="@+id/nav_behind"
-        android:name="com.example.idalia.ui.behind.BehindFragment"
+        android:name="com.idalia.apk.ui.behind.BehindFragment"
         android:label="@string/menu_behind"
         tools:layout="@layout/fragment_behind" />
 
     <fragment
         android:id="@+id/nav_about"
-        android:name="com.example.idalia.ui.about.AboutFragment"
+        android:name="com.idalia.apk.ui.about.AboutFragment"
         android:label="@string/menu_about"
         tools:layout="@layout/fragment_about" />
 </navigation>

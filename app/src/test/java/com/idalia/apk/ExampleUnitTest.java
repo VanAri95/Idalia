@@ -1,4 +1,4 @@
-package com.example.idalia;
+package com.idalia.apk;
 
 import org.junit.Test;
 

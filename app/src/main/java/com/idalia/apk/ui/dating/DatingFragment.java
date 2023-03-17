@@ -1,4 +1,4 @@
-package com.example.idalia.ui.dating;
+package com.idalia.apk.ui.dating;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -19,7 +19,7 @@ import androidx.fragment.app.Fragment;
 import androidx.webkit.WebSettingsCompat;
 import androidx.webkit.WebViewFeature;
 
-import com.example.idalia.R;
+import com.idalia.apk.R;
 
 public class DatingFragment extends Fragment {
 

@@ -1,4 +1,4 @@
-package com.example.idalia;
+package com.idalia.apk;
 
 import android.os.Bundle;
 import androidx.navigation.NavController;
@@ -12,7 +12,6 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.view.Menu;
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;

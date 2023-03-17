@@ -1,4 +1,4 @@
-package com.example.idalia.ui.behind;
+package com.idalia.apk.ui.behind;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -20,7 +20,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.example.idalia.R;
+import com.idalia.apk.R;
 
 import java.io.File;
 import java.io.FileOutputStream;

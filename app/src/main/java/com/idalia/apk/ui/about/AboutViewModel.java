@@ -1,4 +1,4 @@
-package com.example.idalia.ui.about;
+package com.idalia.apk.ui.about;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
